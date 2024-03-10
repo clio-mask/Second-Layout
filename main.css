@@ -1,22 +1,22 @@
 @font-face {
   font-family: "TT Lakes";
   font-weight: 400;
-  src: local("TT Lakes"), url("second-layout/font/TTLakes-Regular.ttf") format("ttf"),
-    url("second-layout/font/TTLakes-Regular.woff") format("woff");
+  src: local("TT Lakes"), url("font/TTLakes-Regular.ttf") format("ttf"),
+    url("font/TTLakes-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "TT Lakes";
   font-weight: 500;
-  src: local("TT Lakes Bold"), url("second-layout/font/TTLakes-Bold.ttf") format("ttf"),
-    url("second-layout/font/TTLakes-Bold.woff") format("woff");
+  src: local("TT Lakes Bold"), url("font/TTLakes-Bold.ttf") format("ttf"),
+    url("font/TTLakes-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "TT Lakes";
   font-weight: 700;
-  src: local("TT Lakes Bold"), url("second-layout/font/TTLakes-ExtraBold.ttf") format("ttf"),
-    url("second-layout/font/TTLakes-ExtraBold.woff") format("woff");
+  src: local("TT Lakes Bold"), url("font/TTLakes-ExtraBold.ttf") format("ttf"),
+    url("font/TTLakes-ExtraBold.woff") format("woff");
 }
 
 html {
@@ -48,11 +48,11 @@ html {
 }
 
 .menu__button {
-  background: url(second-layout/img/close.svg) #ff3e79 no-repeat center;
+  background: url(img/close.svg) #ff3e79 no-repeat center;
 }
 
 .menu__search {
-  background: url(second-layout/img/search.svg) #ff3e79 no-repeat center;
+  background: url(img/search.svg) #ff3e79 no-repeat center;
   justify-self: flex-end;
 }
 
@@ -89,15 +89,15 @@ html {
 }
 
 .menu__call {
-  background: url(second-layout/img/phone.svg) #ff3e79 no-repeat center;
+  background: url(img/phone.svg) #ff3e79 no-repeat center;
 }
 
 .menu__message {
-  background: url(second-layout/img/message.svg) #ff3e79 no-repeat center;
+  background: url(img/message.svg) #ff3e79 no-repeat center;
 }
 
 .menu__personal {
-  background: url(second-layout/img/personal.svg) #ff3e79 no-repeat center;
+  background: url(img/personal.svg) #ff3e79 no-repeat center;
 }
 
 .menu__socials {
