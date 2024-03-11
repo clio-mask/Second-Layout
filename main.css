@@ -69,6 +69,10 @@ html {
   padding: 18px 24px 32px;
   position: absolute;
   left: 0;
+  display: grid;
+  height: 100%;
+  grid-template-rows: 70px 1fr 1fr;
+  gap: 40px;
 }
 
 .menu__list {
@@ -160,5 +164,9 @@ html {
 }
 
 .menu__lang-item:hover {
-filter:opacity(0.5)
+  filter: opacity(0.5);
+}
+
+.menu__bottom-part {
+  align-self: flex-end;
 }
