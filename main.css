@@ -139,10 +139,6 @@ html {
   transition-duration: 0.5s;
 }
 
-.menu__center-part {
-  margin-bottom: 268px;
-}
-
 .menu__link:hover {
   filter: opacity(0.5);
 }
